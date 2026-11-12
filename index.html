@@ -87,7 +87,10 @@
   h1 { font-size: clamp(2.2rem, min(4.8vw, 6.8vh), 4.6rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.03em; }
   .role { font-family: var(--mono); font-weight: 700; color: #a5f3fc; font-size: clamp(.85rem, 1.25vw, 1.05rem); margin-top: 10px; min-height: 1.5em; }
   .role i { display: inline-block; width: 2px; height: 1em; background: #fff; vertical-align: -2px; margin-left: 3px; animation: blink 1s steps(1) infinite; }
-  .lead { margin-top: 8px; font-size: clamp(.84rem, 1vw, .98rem); font-weight: 500; max-width: 490px; }
+  .lead { margin-top: 10px; font-size: clamp(.92rem, 1.15vw, 1.1rem); font-weight: 500; line-height: 1.55; max-width: 540px; }
+  .lead span { display: block; margin-top: 7px; }
+  .lead span:first-child { margin-top: 0; }
+  .lead b { font-weight: 800; color: #fff; background: linear-gradient(transparent 62%, rgba(103, 232, 249, .38) 62%); }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .chips span { font-size: .78rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: rgba(0, 0, 0, .28); border: 1px solid rgba(255, 255, 255, .35); }
   .btns { display: flex; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
@@ -235,7 +238,11 @@
       <h1>네트워크<br>엔지니어</h1>
       <!-- 한 글자씩 써지는 문구는 맨 밑 script의 roles 목록에서 바꿔요 -->
       <div class="role">&gt; <span id="typed"></span><i></i></div>
-      <p class="lead">보안 교육 과정 1년 동안 프로젝트마다 인프라를 담당했습니다.<br>처음에는 보안 직무를 목표로 공부를 시작했지만, GNS3로 망을 구성하고 웹·DB 서버를 올려 연동하는 일을 하면서 네트워크 망과 서버를 관리하는 데 흥미를 느껴 네트워크 엔지니어가 되기로 했습니다. 보안을 먼저 배운 만큼, 통신이 되는 것을 넘어 안전한 망을 만들고자 합니다.</p>
+      <p class="lead">
+        <span>정보보호를 전공했지만, <b>망을 직접 만들고 관리하는 일</b>이 가장 재미있었습니다.</span>
+        <span>그래서 <b>네트워크 엔지니어</b>가 되려고 합니다.</span>
+        <span>보안 전공을 살려, 통신이 되는 것을 넘어 <b>안전한 망</b>을 만들겠습니다.</span>
+      </p>
     </div>
     <div>
       <div class="chips">
